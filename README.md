@@ -44,3 +44,17 @@ root@gen8:~/# /btdomo.sh  -a 58:2D:34:34:41:18 -s 192.168.10.1:6080 -id 133
         "title" : "Update Device"
 }
 ```
+
+## If you want to use multiple sensors
+Create file
+```
+#!/bin/bash
+
+/home/domo/btdomo.sh  -a 58:2D:34:34:41:18 -s 192.168.10.1:6080 -id 133
+/home/domo/btdomo.sh -a 4C:65:A8:DA:88:A9 -s 192.168.10.1:6080 -id 67
+```
+### Crontab line to run every 10 minutes
+```
+*/10 * * * * /home/domo/tempbt.sh
+```
+
