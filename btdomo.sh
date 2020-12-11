@@ -6,7 +6,7 @@ SENSOR_NAME=""
 DEBUG=0
 
 readonly USAGE="
-$0 -a [address] -n [sensor name]
+$0 -a [address] -n [sensor name] -s [domoticz address:port] -id [idx in domoticz]
 
 Mandatory arguments:
 
