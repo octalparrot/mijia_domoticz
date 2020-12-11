@@ -46,7 +46,7 @@ root@gen8:~/# /btdomo.sh  -a 58:2D:34:34:41:18 -s 192.168.10.1:6080 -id 133
 ```
 
 ## If you want to use multiple sensors
-Create file
+Create file eg. /home/domo/tempbt.sh
 ```
 #!/bin/bash
 
